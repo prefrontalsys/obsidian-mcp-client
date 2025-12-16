@@ -1,0 +1,10 @@
+{
+  "id": "mcp-client",
+  "name": "MCP Client",
+  "version": "0.2.0",
+  "minAppVersion": "1.4.0",
+  "description": "Connect to Model Context Protocol (MCP) servers to access AI tools, resources, and prompts",
+  "author": "simplemindedbot",
+  "authorUrl": "https://github.com/simplemindedbot",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,31 @@
+# Build output
+main.js
+*.js.map
+
+# Local development
+.beads/
+.claude/
+
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Data directory
+data.json

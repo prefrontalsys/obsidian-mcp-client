@@ -1,0 +1,228 @@
+/* MCP Client Plugin Styles */
+
+.mcp-view-container {
+  padding: 10px;
+}
+
+.mcp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mcp-header h2 {
+  margin: 0;
+}
+
+.mcp-global-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.mcp-global-controls button {
+  padding: 4px 12px;
+}
+
+/* Server Cards */
+.mcp-server {
+  background: var(--background-secondary);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.mcp-server-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.mcp-server-header h3 {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.mcp-status-badge {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.mcp-status-badge.status-connected {
+  background: var(--interactive-success);
+  color: var(--text-on-accent);
+}
+
+.mcp-status-badge.status-disconnected {
+  background: var(--background-modifier-error);
+  color: var(--text-on-accent);
+}
+
+.mcp-server-info {
+  margin-bottom: 8px;
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+.mcp-server-controls {
+  display: flex;
+  gap: 8px;
+}
+
+/* Sections */
+.mcp-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.mcp-section h4 {
+  margin: 0 0 8px 0;
+  font-size: 0.95em;
+  color: var(--text-muted);
+}
+
+/* Tool List */
+.mcp-tool-list,
+.mcp-resource-list,
+.mcp-prompt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mcp-tool-item,
+.mcp-resource-item,
+.mcp-prompt-item {
+  background: var(--background-primary);
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.mcp-tool-item strong,
+.mcp-resource-item strong,
+.mcp-prompt-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.mcp-tool-desc,
+.mcp-resource-item p,
+.mcp-prompt-item p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+.mcp-resource-uri {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8em;
+  color: var(--text-faint);
+  word-break: break-all;
+}
+
+.mcp-tool-buttons {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.mcp-tool-buttons button {
+  padding: 2px 10px;
+  font-size: 0.85em;
+}
+
+/* Tool Parameter Modal */
+.mcp-tool-modal {
+  min-width: 400px;
+}
+
+.mcp-tool-modal h2 {
+  margin-top: 0;
+}
+
+.mcp-tool-description {
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.mcp-no-params {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.mcp-advanced {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.mcp-advanced summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.mcp-json-container {
+  margin-top: 8px;
+}
+
+.mcp-json-input {
+  width: 100%;
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+  resize: vertical;
+}
+
+.mcp-button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+/* Settings */
+.mcp-server-settings {
+  background: var(--background-secondary);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.mcp-server-config {
+  margin-top: 12px;
+}
+
+.mcp-preset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mcp-preset-item button {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+}
+
+/* Status messages */
+.mcp-no-servers {
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.mcp-error {
+  color: var(--text-error);
+  padding: 8px;
+  background: var(--background-modifier-error-hover);
+  border-radius: 4px;
+}
